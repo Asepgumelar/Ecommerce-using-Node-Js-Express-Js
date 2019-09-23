@@ -1,0 +1,17 @@
+nav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top
+    .container-fluid
+        button.navbar-toggler(data-target='#my-nav', data-toggle='collapse', aria-controls='my-nav', aria-expanded='false', aria-label='Toggle navigation')
+            span.navbar-toggler-icon
+        .collapse.navbar-collapse#my-nav
+            a.navbar-brand.text-light(href='/') Ecommerce
+        ul.navbar-nav.ml-auto
+            li.nav-item
+                a.nav-link.text-light(href='#', tabindex='-1', aria-disabled='true')
+                    Item 
+                    i.fa.fa-shopping-cart(aria-hidden='true')
+            li.nav-item
+                a.nav-link.text-light(href='/login', tabindex='-1', aria-disabled='true')
+                    Item Login
+            li.nav-item
+                a.nav-link.text-light(href='/register', tabindex='-1', aria-disabled='true')
+                    Item Register

@@ -1,0 +1,24 @@
+extends layout
+
+block content
+    .row.justify-content-center
+        .col-md-6
+            .card
+                .card-body
+                    .container
+                        h3.font-weight-bold.text-center Register
+                        .dropdown-divider
+                        .form-group
+                            label(for='my-input') Name
+                            input.form-control(type='text' placeholder="Name")
+                        .form-group
+                            label(for='my-input') E-Mail Address
+                            input.form-control(type='email', placeholder="E-Mail Address")
+                        .form-group
+                            label(for='my-input') Password
+                            input.form-control(type="password", placeholder="Password")
+                        .form-group
+                            label(for='my-input') Confirm Password
+                            input.form-control(type="password", placeholder="Confirm Password")
+                        .form-group
+                            button.btn.btn-block.btn-info.text-light(type="submit") Register
